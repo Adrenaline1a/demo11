@@ -89,6 +89,8 @@ def fib(i, current = 0, next = 1):
     else:
         return fib(i - 1, next, current + next)
 """
+
+
 if __name__ == '__main__':
     print("Время выполнения функции factorial(): ",
           timeit(setup=code1, number=10000))

@@ -62,6 +62,8 @@ def factorial3(n):
     else:
         return n * factorial3(n-1)
 """
+
+
 if __name__ == '__main__':
     print("Время выполнения рекрусивной функции числа Фибоначи: ",
           timeit(setup=fib1, number=1000))
